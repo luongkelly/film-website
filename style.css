@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    color: rgb(229, 189, 157);
+    background-color: rgb(197, 151, 116);
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: flex-end;
+    margin-left: auto;
+}
