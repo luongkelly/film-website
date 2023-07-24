@@ -69,8 +69,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(169, 126, 96);
-    color:rgb(223, 205, 190);
+    background-color: rgb(236, 203, 179);
+    color: rgb(130, 96, 71);
     padding: 30px;
 }
 
@@ -90,4 +90,75 @@ h1 {
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(205, 156, 123, 0.714);
+    color: rgb(120, 86, 61);
+    padding: 80px;
+}
+
+.quote p {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote b {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.background-signup {
+    background-color: rgb(236, 203, 179);
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    background-color: rgb(84, 108, 141);
+    color:rgb(223, 205, 190);
+    margin: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: none;
+    gap: 200px;
+}
+
+.sign-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h3 {
+    padding: 0px;
+    margin: 30px 0px 0px 50px;
+}
+
+.sign-text p {
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+.sign-button button {
+    background-color: rgb(84, 108, 141);
+    color:rgb(223, 205, 190);
+    border-color: rgb(223, 205, 190);
+    border-radius: 8px;
+    padding: 5px 25px;
+    font-size: 15px;
+    max-width: 1100px;
+}
+
+.copyright {
+    background-color: rgb(169, 126, 96);
+    color:rgb(223, 205, 190);
+    display: flex;
+    justify-content: center;
+
+}
+
 
